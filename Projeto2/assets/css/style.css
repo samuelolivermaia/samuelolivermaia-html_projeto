@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 110%;
+}
+.menu {
+    width: 15%;
+    background-color: #73ADFF;
+    padding: 10px 20px 0px;
+}
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+a:hover {
+    color: #FFF;
+}
+.header {
+    background-color: #13407F; 
+    color: white;   
+    font-weight: bold;
+}
+
+.header img {
+    width: 200px;
+    height: 135px;
+    float: right;
+}
+.header h1 {
+    margin-left: 10px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top; 
+}
+.content blockquote {
+    color: rgb(102, 97, 97);
+}
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+div#iframe.content h1 {
+    color: black;
+}
+div#form.content h1 {
+    color: black;
+}
+
+form {
+    font-weight: bold;
+}
+
+div#iframe.content p {
+    font-size: 13px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 400px;
+    height: 25px;
+    margin: 5px 0 5px 0;
+    color: grey;
+}
+
+label {
+    
+}
+
+textarea#mensagem {
+    width: 405px;
+    height: 100px;
+}
+
+button {
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.footer {
+    background-color: #1B5AB3;
+    min-height: 150px;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+#end1 {
+    width: 190px;
+}
+
+#end3 {
+    width: 190px;
+}
+
+.footer p {
+    margin: 0px;
+}
+.footer h4 {
+    color: white;
+}
+
+table {
+    box-shadow: 5px 5px 5px rgba(138, 5, 5, 0.992);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td, th {
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+tr, td {
+    font-weight: normal;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.742);
+}
+
+table thead th {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+.img{
+  margin-left: 30;
+}
